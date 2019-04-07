@@ -24,3 +24,9 @@ li a:hover:not(.active) {
   background-color: #111; <!-- background kalo di pilih kursor -->
 }
 
+body {
+  background-image: url("Background.jpg");
+  background-size: 1500px 700px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
