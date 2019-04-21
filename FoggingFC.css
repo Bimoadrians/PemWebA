@@ -24,9 +24,30 @@ li a:hover:not(.active) {
   background-color: #111; <!-- background kalo di pilih kursor -->
 }
 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: orange;
+  border: none;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
 body {
   background-image: url("Background.jpg");
   background-size: 1500px 700px;
   background-repeat: no-repeat;
   background-position: top;
 }
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;}
